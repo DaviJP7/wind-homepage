@@ -1,0 +1,19 @@
+body {
+    background-image: url("../assets/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*backdrop-filter: blur(2px);*/
+}
+
+nav ul li:nth-child(n+3)::after{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid #01876e;
+    border-top: 2px solid #01876e;
+    float: right;
+    margin-top: 11px;
+    margin-left: 3px;
+    transform: rotate(135deg);
+}
