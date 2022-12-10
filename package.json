@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "npx tailwind -i ./src/css/app.css -o ./dist/style.css",
     "watch": "npx tailwind -i ./src/css/app.css -o ./dist/style.css --watch"
   },
   "keywords": [],
